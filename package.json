@@ -1,0 +1,36 @@
+{
+  "name": "bandari-capital",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "ts-node --transpile-only scripts/seed.ts"
+  },
+  "dependencies": {
+    "next": "13.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "next-auth": "4.22.1",
+    "mongoose": "7.2.2",
+    "bcryptjs": "2.4.3",
+    "nodemailer": "6.9.4",
+    "axios": "1.4.0",
+    "cloudinary": "1.34.0",
+    "jsonwebtoken": "9.0.0",
+    "swr": "2.2.0",
+    "clsx": "1.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.21",
+    "@types/jsonwebtoken": "9.0.2",
+    "typescript": "5.2.2",
+    "tailwindcss": "3.5.3",
+    "postcss": "8.4.24",
+    "autoprefixer": "10.4.14",
+    "ts-node": "10.9.1"
+  }
+}
