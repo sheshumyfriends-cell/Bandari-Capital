@@ -1,0 +1,21 @@
+{
+  "name": "bandari-capital",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "next": "13.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "next-auth": "4.22.1",
+    "mongoose": "7.2.2",
+    "bcryptjs": "2.4.3",
+    "nodemailer": "6.9.4",
+    "axios": "1.4.0"
+  }
+}
